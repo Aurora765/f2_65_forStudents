@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useCabinsOpen } from '../features/cabin/useCabinsOpen';
 import CabinsList from '../components/CabinsList';
-import Header_xx from '../components/Header_xx';
+import Header_xx from '../components/Header_65';
 
 const Landing_xx = () => {
   const { cabins, isLoading } = useCabinsOpen();

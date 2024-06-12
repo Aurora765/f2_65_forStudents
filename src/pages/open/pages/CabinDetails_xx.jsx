@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom';
-import Header_xx from '../components/Header_xx';
+import Header_xx from '../components/Header_65';
 import CabinById_xx from '../features/cabin/CabinById_xx';
 
 const CabinDetails_xx = () => {

@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 
-const Header_xx = () => {
+const Header_65 = () => {
   return (
     <>
       <header className='bg-slate-100 border-b border-primary-900 px-8 py-5'>
         <div className='flex justify-between items-center max-w-7xl mx-auto'>
           <Link className='flex items-center gap-4 z-10' to='/'>
             <img width='60' height='60' src='/logo.webp' />
-            <span>The Wild Oasis (htc, 123456789)</span>
+            <span>The Wild Oasis (吳映慈, 211410765)</span>
           </Link>
           <nav className='z-10 text-xl'>
             <ul className='flex gap-8 items-center'>
@@ -16,39 +16,39 @@ const Header_xx = () => {
                   className='text-slate-500 p-3 hover:bg-slate-200 transition-colors'
                   to='/'
                 >
-                  Home_xx
+                  Home_65
                 </Link>
               </li>
               <li>
                 <Link
                   className='text-slate-500 p-3 hover:bg-slate-200 transition-colors'
-                  to='/cabins_xx'
+                  to='/cabins_65'
                 >
-                  Cabins_xx
+                  Cabins_65
                 </Link>
               </li>
               <li>
                 <Link
                   className='text-slate-500 p-3 hover:bg-slate-200 transition-colors'
-                  to='/about_xx'
+                  to='/about_65'
                 >
-                  About_xx
+                  About_65
                 </Link>
               </li>
               <li>
                 <Link
                   className='text-slate-500 p-3 hover:bg-slate-200 transition-colors'
-                  to='/contact_xx'
+                  to='/contact_65'
                 >
-                  Contact_xx
+                  Contact_65
                 </Link>
               </li>
               <li>
                 <Link
                   className='text-slate-500 p-3 hover:bg-slate-200 transition-colors'
-                  to='/login_xx'
+                  to='/login_65'
                 >
-                  Login_xx
+                  Login_65
                 </Link>
               </li>
             </ul>
@@ -58,4 +58,4 @@ const Header_xx = () => {
     </>
   );
 };
-export default Header_xx;
+export default Header_65;
