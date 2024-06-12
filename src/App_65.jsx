@@ -8,19 +8,19 @@ import ProtectedRoute from './ui/ProtectedRoute';
 import LandingStatic_xx from './pages/open/pages/LandingStatic_xx';
 import Landing_xx from './pages/open/pages/Landing_xx';
 import About_65 from './pages/open/pages/About_65';
-import CabinDetails_xx from './pages/open/pages/CabinDetails_xx';
+import CabinDetails_65 from './pages/open/pages/CabinDetails_65';
 
 import GlobalStyles from './styles/GlobalStyles';
 
 import {
   Account_xx,
   Bookings_xx,
-  Cabins_xx,
+  Cabins_65,
   Dashboard_xx,
   Login_xx,
   PageNotFound_xx,
   Settings_xx,
-  NewUsers_65,
+  NewUsers_xx,
 } from './pages';
 
 const queryClient = new QueryClient({
@@ -41,8 +41,8 @@ const router = createBrowserRouter([
     element: <Landing_xx />,
   },
   {
-    path: '/cabins_xx/:id',
-    element: <CabinDetails_xx />,
+    path: '/cabins_65/:id',
+    element: <CabinDetails_65 />,
   },
   {
     path: '/about_65',
@@ -74,7 +74,7 @@ const router = createBrowserRouter([
       },
       {
         path: 'cabins',
-        element: <Cabins_xx />,
+        element: <Cabins_65 />,
       },
       {
         path: 'users',
