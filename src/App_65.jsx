@@ -38,7 +38,7 @@ const router = createBrowserRouter([
   },
   {
     path: '/landing',
-    element: <Landing_xx />,
+    element: <Landing_65 />,
   },
   {
     path: '/cabins_xx/:id',
