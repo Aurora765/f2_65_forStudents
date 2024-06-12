@@ -34,7 +34,7 @@ const queryClient = new QueryClient({
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Landing_xx />,
+    element: <Landing_65 />,
   },
   {
     path: '/landing',
