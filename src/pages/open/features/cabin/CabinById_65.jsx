@@ -5,11 +5,11 @@ import { FaLocationDot } from 'react-icons/fa6';
 import { MdPrivacyTip } from 'react-icons/md';
 import { useParams, Link } from 'react-router-dom';
 
-import {
-  addCabins,
-  updateBooking,
-  deleteBooking,
-} from '../../../../services/apiBookings';
+// import {
+//   addCabins,
+//   updateBooking,
+//   deleteBooking,
+// } from '../../../../services/apiBookings';
 
 const CabinById_65 = () => {
   const { id } = useParams();

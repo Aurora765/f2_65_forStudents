@@ -1,5 +1,5 @@
 import { useQuery } from '@tanstack/react-query';
-// import { getCabinById } from '../../../../services/apiCabins';
+//import { getCabinById } from '../../../../services/apiCabins';
 
 export const useCabinById = (id) => {
   const { data, error, isLoading } = useQuery({
