@@ -20,7 +20,7 @@ import {
   Login_xx,
   PageNotFound_xx,
   Settings_xx,
-  NewUsers_xx,
+  NewUsers_65,
 } from './pages';
 
 const queryClient = new QueryClient({
